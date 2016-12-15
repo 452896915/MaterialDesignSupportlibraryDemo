@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".SecondActivity" />
+        <activity android:name=".SecondActivity"
+            android:configChanges="keyboardHidden"/>
     </application>
 
 </manifest>

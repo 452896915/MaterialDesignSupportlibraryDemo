@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_SHORT)
-                        .setAction("Action", new View.OnClickListener() {
+                Snackbar.make(view, "这里是展示的文字", Snackbar.LENGTH_SHORT)
+                        .setAction("点击", new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
                                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
