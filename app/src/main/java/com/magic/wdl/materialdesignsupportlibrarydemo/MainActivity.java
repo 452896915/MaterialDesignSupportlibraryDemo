@@ -1,5 +1,6 @@
 package com.magic.wdl.materialdesignsupportlibrarydemo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.FloatingActionButton;
@@ -41,7 +42,8 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
-
+                                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+                                startActivity(intent);
                             }
                         }).show();
             }
